@@ -1,14 +1,20 @@
 
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,400;1,600&family=Montserrat:wght@200&family=Prata&display=swap');
 body {
-    background-color: rgb(187, 176, 161);
-    color: rgb(16, 15, 19);
+    background-color: rgb(1, 7, 12);
+    color: rgb(66, 16, 214);
     font-family: 'Nunito', sans-serif;
     max-width: 1280px;
     margin: 0 auto;
+    align-items: center;
 }
 
 h1{
    text-align: center;
+   font-family: 'Montserrat', sans-serif;
+   font-style: bold;
+   font-size: 7ch;
 }
 
 
@@ -18,18 +24,21 @@ h1{
     border-color: #4a4a4a;
     padding: 12px;
     border-radius: 8px;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
     
-    width: 80%;
 }
 .ball {
-    background-color: rgb(18, 82, 141);
+    flex-wrap: wrap;
+    background-color:  solid 3px #557794ac;
     display: inline-block;
-    width: 12.5%;
+    width: 10%;
     min-height: 64px;
     text-align: center;
     padding-top: 32px;
     font-size: x-large;
-    border-color: rgb(78, 93, 100);
+    border-color: #7794ac;
     border-style: solid;
     border-width: 2px;
     margin: 3px;
@@ -38,8 +47,8 @@ h1{
 }
 
 .ball.selected {
-    border-color: gray;
-    background-color: rgb(63, 63, 63);
+    border-color: rgb(55,204, 140, 67);
+    background-color: rgb(214, 148, 62);
 }
 
 #user-container {
@@ -48,7 +57,24 @@ h1{
     border-color: #4a4a4a;
     padding: 12px;
     border-radius: 8px;
-    
-    width: 80%;
+    align-items: center;
+   flex-wrap: wrap;
+    width: auto;
+    height: 5%;
+    margin-bottom: 5ch;
 }
 
+button {   height: 32px;
+    background-color: #550f0f0f;
+    border: solid 3px  #4a4a4a;
+    color: rgb(66, 16, 214);
+    padding: 8px;
+    border-radius: 3px;
+    font-size: xx-large;
+    padding: 2ch;
+    margin-bottom: 1ch;
+    display: flex;
+    font-family: 'Nunito', sans-serif;
+
+
+}
