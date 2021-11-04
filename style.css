@@ -1,0 +1,44 @@
+
+body {
+    background-color: rgb(187, 176, 161);
+    color: rgb(16, 15, 19);
+    font-family: 'Nunito', sans-serif;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+h1{
+   text-align: center;
+}
+
+
+#bingo-container {
+    border-style: solid;
+    border-width: 3px;
+    border-color: #4a4a4a;
+    padding: 12px;
+    border-radius: 8px;
+    margin: auto;
+    
+    width: 60%;
+}
+.ball {
+    background-color: rgb(18, 82, 141);
+    display: inline-block;
+    width: 12.5%;
+    min-height: 64px;
+    text-align: center;
+    padding-top: 32px;
+    font-size: x-large;
+    border-color: rgb(78, 93, 100);
+    border-style: solid;
+    border-width: 2px;
+    margin: 3px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.ball.selected {
+    border-color: gray;
+    background-color: rgb(63, 63, 63);
+}
